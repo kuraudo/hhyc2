@@ -1,0 +1,12 @@
+{
+ "extends": ["stylelint-config-recommended-scss"],
+ "plugins": [
+    "@namics/stylelint-bem"
+  ],
+  "rules": {
+	"plugin/stylelint-bem-namics": {
+      "patternPrefixes": [],
+      "helperPrefixes": []
+    }
+  }
+}
